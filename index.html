@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>NASA STELLA – STEM Education Ambassadors</title>
+  <link rel="stylesheet" href="style.css">
+  <link
+  rel="stylesheet"
+  href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+  <link rel="icon" type="image/png" href="images/STELLA_icon.png">
+</head>
+
+<body>
+  <div class="wrap">
+
+    <header>
+      <div class="topbar">
+        <div class="brand">
+          <div class="logo">
+            <img src="STELLA_OSTEM_logo.png" alt="NASA STELLA STEM Education Ambassadors logo" />
+          </div>
+
+          <div class="titleblock">
+            <h1>NASA STELLA — STEM Education Ambassadors</h1>
+            <p class="subtitle">
+              A workforce development engagement program connecting educators with NASA STEM opportunities,
+              Earth &amp; environmental science resources, and a monthly community of practice.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero">
+        <p>
+          The STEM Education Ambassadors program, led by the Office of STEM Engagement at NASA’s Goddard Institute for Space Studies, connects educators nationwide with NASA’s Science and Technology Education for Land/Life Assessment (STELLA) mission. As Ambassadors, we participate in ongoing professional learning focused on NASA’s workforce development initiatives, Earth and environmental science content, and updates from the Science Mission Directorate, Earth Science Division, GISS, GSFC, Science Activation teams, and partner organizations.
+        </p>
+        <p>
+          Through this community of practice, Ambassadors integrate NASA data, tools, experts, and mission content into classroom instruction and community engagement efforts. Our work expands access to authentic NASA resources while building meaningful STEM pathways for students and educators.
+        </p>
+
+        <div class="map-slot">
+          <h3 class="map-title">Team Members</h3>
+          <p class="map-sub">Click a pin to view a profile.</p>
+          <div id="ambassador-map" class="map"></div>
+        </div>
+      </div>
+
+      <div class="accentbar" aria-hidden="true"></div>
+    </header>
+
+
+    <section class="section">
+      <div class="section-head">
+        <h2>Recent Projects and Events</h2>
+      </div>
+
+      <div class="details-body">
+
+        <!-- March -->
+        <details class="month-mar">
+          <summary>
+            March 2026
+            <span class="chev" aria-hidden="true"></span>
+          </summary>
+
+          <div class="details-body">
+            <div class="event">
+              <div class="event-top">
+                <div class="event-img">
+                  <!-- <img src="images/mar-placeholder.jpg" alt="March event placeholder" /> -->
+                </div>
+                <div class="event-meta">
+                  <h3 class="event-title">March 2026</h3>
+                  <p>
+                    <i>Coming Soon</i>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </details>
+
+        <!-- February -->
+        <details class="month-feb">
+          <summary>
+            February 2026
+            <span class="chev" aria-hidden="true"></span>
+          </summary>
+
+          <!-- Event 1 -->
+          <div class="details-body">
+            <div class="event">
+              <div class="event-top">
+                <div class="event-img">
+                  <img src="images/event_project_images/februaryMeeting.png" alt="NASA earth visualization on slide show snippet" />
+                </div>
+                <div class="event-meta">
+                  <h3 class="event-title">February Monthly Seminar</h3>
+                  <p>We were fortunate to hear from three excellent speakers:</p>
+
+                  <ul>
+                    <li>
+                      <a href="https://science.gsfc.nasa.gov/sci/bio/sean.mccartney" target="_blank" rel="noopener noreferrer">Sean McCartney</a>
+                      presented on ARSET (Applied Remote Sensing Training), a fantastic resource for gaining understanding of remote sensing and Earth science topics from beginner to advanced levels, and also discussed the DEVELOP framework.
+                    </li>
+
+                    <li>
+                      <a href="https://science.gsfc.nasa.gov/sci/bio/shawn.p.serbin" target="_blank" rel="noopener noreferrer">Shawn Serbin</a>,
+                      Chief of the Biospheric Sciences Laboratory, discussed current missions and studies the lab is performing, and how he envisions STELLA instruments complementing this work.
+                    </li>
+
+                    <li>
+                      <a href="https://nbhs.northbergen.k12.nj.us/apps/pages/index.jsp?uREC_ID=1050592&type=u&pREC_ID=1513780" target="_blank" rel="noopener noreferrer">Stephanie Stern</a>
+                      (STEM EA Spotlight) from North Bergen School District highlighted her experience in NASA’s STEM education programs and shared strategies and success stories for integrating NASA education, content, people, and resources into her instruction, school, and community.
+                    </li>
+                  </ul>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Event 2 -->
+          <div class="details-body">
+            <div class="event">
+              <div class="event-top">
+                <div class="event-img">
+                  <img src="images/event_project_images/seec26Lily.jpeg" alt="Lily and other educators at SEEC Astrobotany workshopping. One is holding a microgreen sheet." />
+                </div>
+                <div class="event-meta">
+                  <h3 class="event-title">Space Exploration Educators Conference (SEEC)</h3>
+                  <p>STEM Education Ambassador, Lily K. Donaldson, presented two professional development sessions at the <a href="https://spacecenter.org/education-programs/educator-resources/seec/" target="_blank" title="Space Center Houston SEEC">Space Exploration Educators Conference (SEEC)</a> at Space Center Houston. In the first session, <a href="https://arttechnically.org/spreadsheet-science/" target="_blank" title="Art Technically Spreadsheet Science Resources">Spreadsheet Science",</a> participants learned how to download open-source satellite data from <a href="https://giovanni.gsfc.nasa.gov/giovanni/" target="_blank" title="NASA Giovanni EarthData Tool">NASA Giovanni</a> and analyze it in Google Sheets. In the second session, <a href="https://arttechnically.org/astrobotany/" target="_blank" title="Art Technically Astrobotany and CEA Resources">"Astrobotany",</a> participants learned about Controlled Environment Agriculture and NASA's plant science missions; participants also built DIY hydroponic containers.</p>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </details>
+
+        <!-- January -->
+        <details class="month-jan">
+          <summary>
+            January 2026
+            <span class="chev" aria-hidden="true"></span>
+          </summary>
+
+          <div class="details-body">
+            <div class="event">
+              <div class="event-top">
+                <div class="event-img">
+                  <img src="images/event_project_images/hhpmsFredHaise.jpeg" alt="Students participating in a Q&amp;A with astronaut Fred Haise on Zoom" />
+                </div>
+                <div class="event-meta">
+                  <h3 class="event-title">Students at H.H. Poole Middle School Q&amp;A with Apollo 13 astronaut Fred Haise</h3>
+                  <p>
+                    STEM Educator Ambassador, Lily K. Donaldson, hosted a live Q&amp;A session with Apollo 13 astronaut Fred Haise for her STEAM club students in partnership with <a href="https://steam4space.org/" target="_blank" title="STEAM4Space">STEAM4Space.</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </details>
+
+      </div>
+    </section>
+
+
+    <footer style="margin-top:18px; color: var(--muted); font-size:.9rem; text-align:center;">
+      © <span id="year"></span> NASA STELLA STEM Education Ambassadors • Built for sharing program highlights
+    </footer>
+
+  </div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="membermap.js"></script>
+</body>
+</html>
