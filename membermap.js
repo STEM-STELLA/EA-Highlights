@@ -3,57 +3,59 @@
 
   // ---- MAP DATA (edit these) ----
   const people = [
-    {
-      name: "Lily K. Donaldson",
-      role: "Computer Science Teacher",
-      type: "ambassador", // ambassador | sme | leader
-      city: "Stafford, VA",
-      lat: 38.422,
-      lng: -77.408,
-      photo: "images/profiles/LilyDonaldson.PNG",
-      linkedIn: "https://www.linkedin.com/in/lilykdonaldson/",
-      website: "https://lilykdonaldson.com/"
-    },
-    {
-      name: "Paul Mirel",
-      role: "Creator and Lead Engineer STELLA",
-      type: "sme",
-      city: "Baltimore, MD",
-      lat: 39.2905,
-      lng: -76.6104,
-      photo: "images/profiles/PaulMirel.png"
-    },
-    {
-      name: "Matthew Pearce",
-      role: "NASA Education Program Specialist",
-      type: "leader",
-      city: "New York, NY",
-      lat: 40.7128,
-      lng: -74.0060,
-      photo: "images/profiles/MatthewPearce.png",
-      website: "https://www.giss.nasa.gov/edu/"
-    },
-    {
-      name: "Melissa Sleeper",
-      role: "Space and Life Science Teacher",
-      type: "ambassador", // ambassador | sme | leader
-      city: "Melbourne, FL",
-      lat: 28.0794,
-      lng: -80.6078,
-      photo: "images/profiles/MelissaSleeper.PNG",
-      linkedIn: "https://www.linkedin.com/in/melissa-sleeper-2219a5116/",
-    },
-    {
-      name: "Parth Bhatt",
-      role: "Assistant Teaching Professor",
-      type: "ambassador", // ambassador | sme | leader
-      city: "Houghton, MI",
-      lat: 47.1211,
-      lng: -88.5694,
-      photo: "images/profiles/ParthBhatt.PNG",
-      linkedIn: "https://www.linkedin.com/in/parthbhatt21/",
-    },
-    [
+{
+  name: "Lily K. Donaldson",
+  role: "Computer Science Teacher",
+  type: "ambassador",
+  city: "Stafford, VA",
+  lat: 38.422,
+  lng: -77.408,
+  photo: "images/profiles/LilyDonaldson.PNG",
+  linkedIn: "https://www.linkedin.com/in/lilykdonaldson/",
+  website: "https://lilykdonaldson.com/"
+},
+{
+  name: "Paul Mirel",
+  role: "Creator and Lead Engineer STELLA",
+  type: "sme",
+  city: "Baltimore, MD",
+  lat: 39.2905,
+  lng: -76.6104,
+  photo: "images/profiles/PaulMirel.png"
+},
+{
+  name: "Matthew Pearce",
+  role: "NASA Education Program Specialist",
+  type: "leader",
+  city: "New York, NY",
+  lat: 40.7128,
+  lng: -74.0060,
+  photo: "images/profiles/MatthewPearce.png",
+  website: "https://www.giss.nasa.gov/edu/"
+},
+{
+  name: "Melissa Sleeper",
+  role: "Space and Life Science Teacher",
+  type: "ambassador",
+  city: "Melbourne, FL",
+  lat: 28.0794,
+  lng: -80.6078,
+  photo: "images/profiles/MelissaSleeper.PNG",
+  linkedIn: "https://www.linkedin.com/in/melissa-sleeper-2219a5116/"
+},
+{
+  name: "Parth Bhatt",
+  role: "Assistant Teaching Professor",
+  type: "ambassador",
+  city: "Houghton, MI",
+  lat: 47.1211,
+  lng: -88.5694,
+  photo: "images/profiles/ParthBhatt.PNG",
+  linkedIn: "https://www.linkedin.com/in/parthbhatt21/"
+},
+
+// --- added list (flattened, no brackets) ---
+
 {
   name: "Mike Taylor",
   role: "Outreach Scientist - STELLA Team Lead",
@@ -174,7 +176,7 @@
   photo: "images/profiles/ZachRosch.jpeg",
   linkedIn: "https://www.linkedin.com/in/zach-rosch-ed-d-2933871a3"
 }
-  ];
+];
 
   // Create the map centered on the US
   const map = L.map("ambassador-map", { scrollWheelZoom: false }).setView([39.8, -98.6], 4);
