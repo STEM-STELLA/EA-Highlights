@@ -24,17 +24,6 @@
       photo: "images/profiles/PaulMirel.png"
     },
     {
-      name: "Mike Taylor",
-      role: "STELLA Team Lead / SME",
-      type: "leader",
-      city: "Goddard, MD",
-      lat: 38.9896,
-      lng: -76.8533,
-      photo: "images/profiles/MikeTaylor.png",
-      linkedIn: "https://www.linkedin.com/in/michael-taylor-6b538a37/",
-      website: "https://science.gsfc.nasa.gov/stella/"
-    },
-    {
       name: "Matthew Pearce",
       role: "NASA Education Program Specialist",
       type: "leader",
@@ -64,6 +53,127 @@
       photo: "images/profiles/ParthBhatt.PNG",
       linkedIn: "https://www.linkedin.com/in/parthbhatt21/",
     },
+    [
+{
+  name: "Mike Taylor",
+  role: "Outreach Scientist - STELLA Team Lead",
+  type: "sme",
+  city: "Greenbelt, MD",
+  lat: 38.995281,
+  lng: -76.85021,
+  photo: "images/profiles/MikeTaylor.jpg",
+  linkedIn: "https://www.linkedin.com/in/michael-taylor-6b538a37/"
+},
+{
+  name: "Trung Tran",
+  role: "Associate Professor of Geospatial Science",
+  type: "ambassador",
+  city: "Fayetteville, NC",
+  lat: 35.0728,
+  lng: -78.8931,
+  photo: "images/profiles/TrungTran.jpg",
+  linkedIn: "https://www.linkedin.com/in/tvtran7/"
+},
+{
+  name: "Misty Thomason",
+  role: "Education Director",
+  type: "ambassador",
+  city: "Midland, TX",
+  lat: 32.033,
+  lng: -102.070,
+  photo: "images/profiles/MistyThomas.png",
+  linkedIn: ""
+},
+{
+  name: "John Olgin",
+  role: "Professor - NASA GLOBE Partner",
+  type: "ambassador",
+  city: "El Paso, TX",
+  lat: 31.7725,
+  lng: -106.461,
+  photo: "images/profiles/jolgin.jpg",
+  linkedIn: "https://www.linkedin.com/in/john-g-olgin-ph-d-9698046/"
+},
+{
+  name: "Audrey Foote",
+  role: "Classroom Teacher, Grades 7–12",
+  type: "ambassador",
+  city: "New York Mills, NY",
+  lat: 43.0,
+  lng: -75.0,
+  photo: "images/profiles/AudreyFoote.jpg",
+  linkedIn: ""
+},
+{
+  name: "Aishwarya Chandrasekaran",
+  role: "Lecturer",
+  type: "ambassador",
+  city: "Logan, UT",
+  lat: 41.737,
+  lng: -111.83,
+  photo: "images/profiles/aish_chan.jpg",
+  linkedIn: "https://www.linkedin.com/in/aishwarya-chandrasekaran-171ab0137/"
+},
+{
+  name: "Dave Curry",
+  role: "Middle School Science Teacher",
+  type: "ambassador",
+  city: "Newtown, PA",
+  lat: 40.2273,
+  lng: -74.9496,
+  photo: "images/profiles/daveCurry.png",
+  linkedIn: "https://www.linkedin.com/in/dave-curry-329b981b5/"
+},
+{
+  name: "Kimberly Campos",
+  role: "Classroom Teacher",
+  type: "ambassador",
+  city: "Bronx, NY",
+  lat: 40.8163,
+  lng: -73.8656,
+  photo: "images/profiles/KimberlyCampos.jpg",
+  linkedIn: "https://www.linkedin.com/in/kimberly-campos-50290774/"
+},
+{
+  name: "Peder Nelson",
+  role: "Participatory Remote Sensing Leader",
+  type: "ambassador",
+  city: "Oregon, USA",
+  lat: 45.0,
+  lng: -123.0,
+  photo: "images/profiles/PederNelson.jpg",
+  linkedIn: "https://www.linkedin.com/in/peder-nelson-99ab04a0"
+},
+{
+  name: "Dr. Jennifer L. Penland",
+  role: "STEM Education Program Specialist",
+  type: "ambassador",
+  city: "Hampton, VA",
+  lat: 37.0,
+  lng: -76.3,
+  photo: "images/profiles/DrJenniferPenland.jpg",
+  linkedIn: "https://www.linkedin.com/in/jennifer-penland-ed-d-67b91741/"
+},
+{
+  name: "Elissa Dee",
+  role: "Informal Educator",
+  type: "ambassador",
+  city: "Noblesville, IN",
+  lat: 40.5,
+  lng: -86.01,
+  photo: "images/profiles/ElissaDee.jpg",
+  linkedIn: "https://www.linkedin.com/in/elissa-dee-76b346288/"
+},
+{
+  name: "Dr. Zach Rosch",
+  role: "Assistant Principal NYCPS",
+  type: "ambassador",
+  city: "Staten Island, NY",
+  lat: 40.52824,
+  lng: -74.193535,
+  photo: "images/profiles/ZachRosch.jpeg",
+  linkedIn: "https://www.linkedin.com/in/zach-rosch-ed-d-2933871a3"
+}
   ];
 
   // Create the map centered on the US
